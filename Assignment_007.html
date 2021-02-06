@@ -1,0 +1,81 @@
+<!-- --------------------------------------------------------- -->
+<!-- ------------- Assignment For Lessons 28 - 30 ------------ -->
+<!-- --------------------------------------------------------- -->
+
+<!-- https://elzero.org/html-assignments-lesson-from-28-to-30/ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="" />
+  <meta name="author" content="Mohammad Hosam" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Assignment_007</title>
+  <link rel="stylesheet" href="">
+  <style>/* Css Code */</style>
+  <script>// JavaScript Code</script>
+</head>
+
+<body>
+  <!-- Assignment 01 -->
+  <form method="GET">
+    <input type="hidden" name="Token" value="b92f1fc2fce391ad7af633723afd3055">
+    <label>Username</label><br>
+    <input type="text" required name="username" placeholder="Username" autofocus minlength="5" maxlength="20"><br>
+    <label>Email</label><br>
+    <input type="email" name="mail" value="o@o.com" readonly><br>
+
+    <!-- Assignment 02 -->
+    <div>
+      <h3>Skills</h3>
+      <input type="checkbox" id="ps" name="skills" value="Problem Solving" checked>
+      <label for="ps">Problem Solving</label><br>
+      <input type="checkbox" id="log" name="skills" value="Logical Thinking">
+      <label for="log">Logical Thinking</label><br>
+      <input type="checkbox" id="advance" name="skills" value="Advanced Search">
+      <label for="advance">Advanced Search</label><br>
+      <input type="checkbox" id="analys" name="skills" value="Analysis">
+      <label for="analys">Analysis</label><br>
+      <input type="checkbox" id="plan" name="skills" value="Planning">
+      <label for="plan">Planning</label><br>
+    </div>
+    <div>
+      <h3>Jobs</h3>
+      <input type="radio" id="fed" name="job" value="Front-End Developer" checked>
+      <label for="fed">Front-End Developer</label><br>
+      <input type="radio" id="bed" name="job" value="Back-End Developer">
+      <label for="bed">Back-End Developer</label><br>
+      <input type="radio" id="ba" name="job" value="Business Analyst">
+      <label for="ba">Business Analyst</label><br>
+      <input type="radio" id="pm" name="job" value="Project Manager">
+      <label for="pm">Project Manager</label><br>
+      <input type="radio" id="sm" name="job" value="Scrum Master">
+      <label for="sm">Scrum Master</label><br>
+    </div>
+    <hr>
+    <!-- Assignment 03 -->
+    <label for="book">Choose Book:</label>
+    <select id="book" name="book">
+      <optgroup label="PHP">
+        <option value="5">v5.0</option>
+        <option value="7">v7.0</option>
+        <option value="8">v8.0</option>
+      </optgroup>
+      <optgroup label="Python">
+        <option value="20">v2.0</option>
+        <option value="30">v3.0</option>
+        <option value="39">v3.9</option>
+      </optgroup>
+    </select><br>
+    <hr>
+    <textarea name="brief" id="" cols="30" rows="10" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+<br>
+    <input type="reset" value="Empty">
+    <input type="submit" value="Send">
+
+  </form>
+</body>
+
+</html>
